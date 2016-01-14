@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day 3 - If - Else Statement
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day 4 - Logical Operators + Class vs. Instance!", "Day 4 - Logical Operators + Class vs. Instance!\Day 4 - Logical Operators + Class vs. Instance!.vcxproj", "{B30DB473-0395-46D3-A110-0D64CF951027}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day 5 - Loops!", "Day 5 - Loops!\Day 5 - Loops!.vcxproj", "{08437B1F-34B3-4234-86EF-BB43F895D0F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{B30DB473-0395-46D3-A110-0D64CF951027}.Release|x64.Build.0 = Release|x64
 		{B30DB473-0395-46D3-A110-0D64CF951027}.Release|x86.ActiveCfg = Release|Win32
 		{B30DB473-0395-46D3-A110-0D64CF951027}.Release|x86.Build.0 = Release|Win32
+		{08437B1F-34B3-4234-86EF-BB43F895D0F3}.Debug|x64.ActiveCfg = Debug|x64
+		{08437B1F-34B3-4234-86EF-BB43F895D0F3}.Debug|x64.Build.0 = Debug|x64
+		{08437B1F-34B3-4234-86EF-BB43F895D0F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{08437B1F-34B3-4234-86EF-BB43F895D0F3}.Debug|x86.Build.0 = Debug|Win32
+		{08437B1F-34B3-4234-86EF-BB43F895D0F3}.Release|x64.ActiveCfg = Release|x64
+		{08437B1F-34B3-4234-86EF-BB43F895D0F3}.Release|x64.Build.0 = Release|x64
+		{08437B1F-34B3-4234-86EF-BB43F895D0F3}.Release|x86.ActiveCfg = Release|Win32
+		{08437B1F-34B3-4234-86EF-BB43F895D0F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
