@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day 1 - Data Types", "Day 1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day 2 - Arithmetic", "Day 2 - Arithmetic\Day 2 - Arithmetic.vcxproj", "{FBBEC168-532C-4482-83C6-66EBA8EEB108}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day 3 - If - Else Statement", "Day 3 - If - Else Statement\Day 3 - If - Else Statement.vcxproj", "{F71C24B4-35E6-4EB3-B067-1F99F676C869}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{FBBEC168-532C-4482-83C6-66EBA8EEB108}.Release|x64.Build.0 = Release|x64
 		{FBBEC168-532C-4482-83C6-66EBA8EEB108}.Release|x86.ActiveCfg = Release|Win32
 		{FBBEC168-532C-4482-83C6-66EBA8EEB108}.Release|x86.Build.0 = Release|Win32
+		{F71C24B4-35E6-4EB3-B067-1F99F676C869}.Debug|x64.ActiveCfg = Debug|x64
+		{F71C24B4-35E6-4EB3-B067-1F99F676C869}.Debug|x64.Build.0 = Debug|x64
+		{F71C24B4-35E6-4EB3-B067-1F99F676C869}.Debug|x86.ActiveCfg = Debug|Win32
+		{F71C24B4-35E6-4EB3-B067-1F99F676C869}.Debug|x86.Build.0 = Debug|Win32
+		{F71C24B4-35E6-4EB3-B067-1F99F676C869}.Release|x64.ActiveCfg = Release|x64
+		{F71C24B4-35E6-4EB3-B067-1F99F676C869}.Release|x64.Build.0 = Release|x64
+		{F71C24B4-35E6-4EB3-B067-1F99F676C869}.Release|x86.ActiveCfg = Release|Win32
+		{F71C24B4-35E6-4EB3-B067-1F99F676C869}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
