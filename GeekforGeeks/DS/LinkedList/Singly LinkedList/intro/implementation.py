@@ -42,6 +42,24 @@ class LinkedList:
         new_node.next = prev_node.next  # Make next of new Node as next of prev_node
         prev_node.next = new_node       # Make next of prev_node as new_node
 
+        
+    # Function appends a new node at the end
+    def append(self, new_data):
+        new_node = Node(new_data)
+
+        # If the linked List is empty, then make the new node as head
+        if self.head is None:
+            self.head = new_node
+            return 
+
+        # Else Traverse till the last Node
+        last = self.head
+
+        while(last.next):
+            last = last.next
+
+        # Change the next of of last Node
+        last.next = new_node                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
 if __name__ == "__main__":
 
@@ -63,4 +81,8 @@ if __name__ == "__main__":
 
     print"#" * 50
     llist.insertAfterGivenNode(llist.head.next.next, 20)
+    llist.printList()
+
+    print"#"*50
+    llist.append(6)
     llist.printList()
