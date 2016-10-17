@@ -59,7 +59,47 @@ class LinkedList:
             last = last.next
 
         # Change the next of of last Node
-        last.next = new_node                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+        last.next = new_node     
+
+
+
+       # Given a reference to the head of a list and a key,
+       # delete the first occurence of key in linked list
+
+    def deleteNode(self, key):
+
+        temp = self.head
+
+        # if head node itself holds the key to be deleted
+        if temp is not None:
+            if temp.data == key:
+                self.head = temp.next
+                temp = None
+                return 
+
+
+        # Search for the key to be deleted, keep track of the 
+        # previous node as we need to change 'prev.next'
+
+        while temp is not None:
+            if temp.data == key:
+                 break
+
+            prev = temp
+            temp = temp.next
+
+
+        # if key is not present in Linked list
+        if temp == None:
+            return
+
+        # Unlink the node from linked List
+        prev.next = temp.next
+
+        temp = None
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 
 if __name__ == "__main__":
 
@@ -85,4 +125,8 @@ if __name__ == "__main__":
 
     print"#"*50
     llist.append(6)
+    llist.printList()
+
+    print"#"*50
+    llist.deleteNode(6)
     llist.printList()
