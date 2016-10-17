@@ -30,6 +30,19 @@ class LinkedList:
         self.head = new_node        # Make the head to point to new Node 
 
 
+    # Function that  inserts a new node after the given prev_node
+    def insertAfterGivenNode(self, prev_node, new_data):
+
+        # Check if the given prev_node exists
+        if prev_node is None:
+            print "The given previous node must be in LinkedList"
+            return 
+
+        new_node = Node(new_data)
+        new_node.next = prev_node.next  # Make next of new Node as next of prev_node
+        prev_node.next = new_node       # Make next of prev_node as new_node
+
+
 if __name__ == "__main__":
 
     # Start with the empty list
@@ -48,3 +61,6 @@ if __name__ == "__main__":
     llist.insertatBeginning(0)
     llist.printList()
 
+    print"#" * 50
+    llist.insertAfterGivenNode(llist.head.next.next, 20)
+    llist.printList()
